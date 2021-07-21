@@ -9,17 +9,16 @@ import { GlobalStyle } from "./styles/globals";
 import { createServer, Model } from "miragejs";
 
 import { useState } from "react";
-import { TransactionsProvider } from "./TransactionsContext";
+import { TransactionsProvider } from "./hooks/useTransactionsContext";
 
 Modal.setAppElement("#root");
 
 createServer({
-
   models: {
     transaction: Model,
   },
 
-  seeds(server){
+  seeds(server) {
     server.db.loadData({
       transactions: [
         {
@@ -37,16 +36,16 @@ createServer({
           category: "casa",
           amount: 350,
           createAt: new Date("2021-02-29 18:00:00"),
-        }
-      ]
-    })
+        },
+      ],
+    });
   },
 
   routes() {
     this.namespace = "api";
 
     this.get("/transactions", () => {
-      return this.schema.all("transaction")
+      return this.schema.all("transaction");
     });
 
     this.post("/transactions", (schema, request) => {

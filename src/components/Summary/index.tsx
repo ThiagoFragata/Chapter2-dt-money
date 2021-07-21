@@ -1,5 +1,4 @@
-import { useContext } from "react";
-import { TransactionsContext } from "../../TransactionsContext";
+import { useTransactionsContext } from "../../hooks/useTransactionsContext";
 
 import { Container } from "./styles";
 
@@ -8,7 +7,7 @@ import outcomeImg from "../../assets/outcome.svg";
 import totalImg from "../../assets/total.svg";
 
 export function Summary() {
-  const { transactions } = useContext(TransactionsContext);
+  const { transactions } = useTransactionsContext();
 
   const summary = transactions.reduce(
     (acc, transaction) => {
@@ -49,7 +48,9 @@ export function Summary() {
           <p>Saídas</p>
           <img src={outcomeImg} alt="Saidas" />
         </header>
-        <strong> -
+        <strong>
+          {" "}
+          -
           {new Intl.NumberFormat("pt-Br", {
             style: "currency",
             currency: "BRL",
