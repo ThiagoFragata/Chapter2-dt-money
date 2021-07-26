@@ -1,46 +1,48 @@
-# Getting Started with Create React App
+![App Screenshot](./public/Capa.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# dt-money
 
-## Available Scripts
+O dt money é uma alternativa simples e eficaz para gerenciar suas finanças, permitindo o cadastro de entradas, saídas e a organização das mesmas em categorias.
 
-In the project directory, you can run:
+## 🛠 Skills
 
-### `yarn start`
+- React
+- TypeScript
+- Styled Components
+- MirageJS
+- Axios
+- Polished
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Instalação
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+```bash
+# Abra um terminal e copie este repositório com o comando
+git clone https://github.com/ThiagoFragata/dt-money.git
+# ou use a opção de download.
 
-### `yarn test`
+# Entre na pasta web com
+cd dt-money
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Instale as dependências
+yarn install
 
-### `yarn build`
+# Rode a aplicação
+yarn start
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<br/>
+<br/>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<a href="https://github.com/ThiagoFragata">
+  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/71910705?v=4" width="100px;" alt=""/>
+</a>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<br/>
 
-### `yarn eject`
+Feito com 🧡+☕ por Thiago Henrique Fragata 👇🏻 Entre em contato!
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+<p align="center">
+<a href="https://www.linkedin.com/in/thiago-henrique-fragata-2603b5207/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="thiagofragata" height="20" width="20" /></a>
+<a href="https://www.facebook.com/tfragata" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/facebook.svg" alt="thiagofragata" height="20" width="20" /></a>
+<a href="https://www.instagram.com/_thiagofragata/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="thiagofragata" height="20" width="20" /></a>
+</p>
